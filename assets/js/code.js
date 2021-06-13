@@ -23,7 +23,7 @@ let answer = function (arr) {
 
 
 
-
+/*
 
 function chekInn() {
 
@@ -64,6 +64,24 @@ function chekInn2() {
   
 
 }
+*/
+
+function chekInnX(inputElem, outputElem) {
+    //innX
+    let inn = inputElem.value;
+
+    inn = inn.split('');
+    console.log(`ИннX ${inn}`);
+
+    outputElem.innerHTML=`${answer(inn)}`;
+
+
+}
+
+//chekInnX(dataInput, Result);
+
+//chekInnX(dataInput2, Result2);
+
 
 
 
