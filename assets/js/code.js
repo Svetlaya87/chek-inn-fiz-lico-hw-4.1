@@ -37,6 +37,17 @@ function chekInn() {
 
     Result.innerHTML=`${answer(dataFromUser)}`;
 
+       
+
+  
+
+}
+
+
+function chekInn2() {
+
+ 
+
     //inn2
     let dataFromUser2 = dataInput2.value;
     dataFromUser2 = dataFromUser2.split('');
