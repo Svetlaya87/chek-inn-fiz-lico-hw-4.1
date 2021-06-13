@@ -3,7 +3,7 @@ let answer = function (arr) {
     let n10 = ( (-1*arr[0]+5*arr[1]+7*arr[2]+9*arr[3]+4*arr[4]+6*arr[5]+10*arr[6]+5*arr[7]+7*arr[8]) %11) %10;
 
     if (arr.length != 10){
-        return Result.innerHTML = 'Не правильно введен ИНН. ИНН состоит из 10 чисел';
+        return 'Не правильно введен ИНН. ИНН состоит из 10 чисел';
 
     }
 
@@ -26,6 +26,8 @@ let answer = function (arr) {
 
 
 function chekInn() {
+
+    //inn1
     let dataFromUser = dataInput.value;
     dataFromUser = dataFromUser.split('');
 
@@ -34,14 +36,8 @@ function chekInn() {
     
 
     Result.innerHTML=`${answer(dataFromUser)}`;
-    
 
-  
-
-}
-
-function chekInn2() {
-    
+    //inn2
     let dataFromUser2 = dataInput2.value;
     dataFromUser2 = dataFromUser2.split('');
 
@@ -52,6 +48,7 @@ function chekInn2() {
 
     
     Result2.innerHTML=`${answer(dataFromUser2)}`;
+    
 
   
 
